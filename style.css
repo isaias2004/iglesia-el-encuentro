@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.row{
+    padding: 30px;
+    display: flex;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+}
+
+.row .button-alert{
+    color: white;
+}
+
+.row a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    margin-top: -8px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.row a:hover{
+    color: #34A6C9;
+}
+
+.row .button-alert:hover{
+    background: #2b87a3;
+    color: white;
+    transition: all .25s;
+}
+
+.button-alert{
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: #34A6C9;
+}
+
+.button-alert a{
+    color: white;
+}
+
+.container img{
+    margin: 8px 0px 0px 25px;
+    width: 49px;
+    height: 72px;
+}
+
+.container{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: white;
+}
+
+.banner{
+    margin-top: 87px;
+    background-image: url(/imagenes/banner-principal.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.banner h1{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    margin-top: 30px;
+    color:white;
+    text-align: center;
+}
+
+.banner p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-style: oblique;
+    font-family: 'Cardo', serif;
+}
+
+.banner a{
+    text-decoration: none;
+}
+
+.row2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.row2 h4{
+    font-weight: 100;
+    opacity: .8;
+    font-style: oblique;
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+    margin-top: 6rem;
+    letter-spacing: 1px;
+}
+
+.fa-chevron-down{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    font-size: 50px;
+    color: white;
+}
+@keyframes pulse {     0% {         transform: scale(0.95);         ;     }      70% {         transform: scale(1);         ;     }      100% {         transform: scale(0.95);         ;     } }
+
+#palabra{
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Cardo', serif;
+    text-align: center;
+    padding: 100px;
+}
+
+#palabra h2{
+    margin-top: 30px;
+}
+
+#palabra p{
+    margin-top: 40px;
+}
