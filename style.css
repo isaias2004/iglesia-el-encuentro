@@ -59,6 +59,7 @@ html{
 }
 
 .container{
+    z-index: 999;
     border-bottom: 1px solid rgb(207, 207, 207);
     position: fixed;
     top: 0;
@@ -146,4 +147,183 @@ html{
 
 #palabra p{
     margin-top: 40px;
+}
+
+.container-banner{
+    position: relative;
+    width: 100%;
+    background: #C1AE9D;
+}
+
+.banner-2{
+    margin: 0 auto;
+    padding: 100px;
+    width: 40%;
+    height: 600px;
+    background-image: url(/imagenes/banner2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner-3{
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/banner-3.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+
+.opacity{
+    z-index: -1;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 69%;
+    background: blue;
+    opacity: 0.7;
+}
+
+.section-iglesia{
+    height: 440px;
+}
+
+.margin{
+    text-align: center;
+    color:white;
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    margin-top: 130px;
+    opacity: none;
+}
+
+.margin h4, p{
+    font-style: oblique;
+    font-family: 'Cardo', serif;
+}
+
+.margin h4 {
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.margin h1{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botones{
+    margin-top: 15px;
+    color: white;
+}
+
+.botones h4{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.botones a{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.a1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.botones-2, .botones-3{
+    padding: 0px 30px;
+    text-align: center;
+    display: inline;
+}
+
+.botones-2 h4, .botones-2 a{
+    margin: 35px 0;
+}
+
+.botones-2 h4{
+    font-size: 30px;
+}
+
+.botones-2 a{
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 9px 13px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botones-2 a:hover{
+    background: black;
+    color: white;
+    transition: all .5s;
+    letter-spacing: 1px;
+}
+
+.botones-3 h4{
+    margin: 35px 0;
+}
+
+.botones-3 h4{
+    font-size: 30px;
+}
+
+.botones-3 a{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 9px 13px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botones-3 a:hover{
+    letter-spacing: 1px;
+    background: black;
+    color: white;
+    transition: all .5s;
+}
+
+.otras-reuniones{
+    width: 100%;
+}
+
+.container-reuniones{
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1D1B29;
+    color: white;
+    text-align: center;
+    padding: 150px;
+}
+
+.container-reuniones a{
+    background: #34A6C9;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border: 1px solid #1D1B29;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+.container-reuniones a:hover{
+    background: #1c5a6d;
+    transition: all .5s;
 }
